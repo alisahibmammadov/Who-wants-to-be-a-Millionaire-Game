@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body .section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62%;
+  width: 100%;
+  background: rgba(0, 23, 82, 0.7333333333);
+}
+body .section .logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+}
+body .section .logo img {
+  width: 170px;
+}
+body .section .prize_help {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid #ccc;
+}
+body .section .prize_help .help {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+}
+body .section .prize_help .help p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24%;
+  height: 20px;
+  font-size: 0.5rem;
+  border: 1px solid #5258fb;
+  border-radius: 50%;
+  color: #fff;
+  padding: 1px;
+}
+body .section .prize_help .help p:hover {
+  cursor: pointer;
+  width: 25%;
+  height: 22px;
+  font-size: 0.51rem;
+  transition: 0.2s linear;
+}
+body .section .prize_help .help .used, body .section .prize_help .help .used:hover {
+  text-decoration: line-through;
+  width: 25%;
+  height: 22px;
+  font-size: 0.51rem;
+}
+body .section .prize_help .prize {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body .section .prize_help .prize p {
+  color: #d59534;
+  font-weight: 700;
+  font-size: 0.45rem;
+  width: 50%;
+  border-radius: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+body .section .prize_help .prize .unlost {
+  color: #fff;
+}
+body .section .prize_help .prize .win {
+  background: #e7ac3f;
+  color: #000;
+}
+body .questions {
+  width: 100%;
+  height: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0, 23, 82, 0.7333333333);
+}
+body .questions .question {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .questions .question span {
+  height: 100%;
+  width: 70%;
+  border: 1px solid #5258fb;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: capitalize;
+  -webkit-user-select: none;
+  font-size: 0.8rem;
+}
+body .questions .answer {
+  width: 70%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body .questions .answer span {
+  width: 35%;
+  height: 20px;
+  border: 1px solid #5258fb;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.8rem;
+}
+body .questions .answer span:hover {
+  background: #5258fb;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+body .questions .answer .true, body .questions .answer .true:hover {
+  background: green;
+}
+body .questions .answer .false, body .questions .answer .false:hover {
+  background: red;
+}/*# sourceMappingURL=style.css.map */
